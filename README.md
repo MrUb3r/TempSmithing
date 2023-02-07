@@ -33,6 +33,6 @@ Failed to load function temp_smithing_templates:templates/template_check
 ```
 
 This is pretty normal. Before minecraft loads each function, it checks if this function is ok.
-This function is certainly not ok if you are loading it below snapshot 23w04a, because this function is trying to give you templates that aren't avaible in previous versions. So it will show up as error. But don't worry! When you load minecraft version that has smithing templates, this function will load and work properly!
+This function is certainly not ok if you are loading it below snapshot 23w04a, because it is trying to give you templates that aren't avaible in previous versions. So it will show up as error. But don't worry! When you load minecraft version that has smithing templates, this function will load and work properly!
 
 If you found any bugs, please let me know!
