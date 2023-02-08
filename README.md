@@ -14,16 +14,22 @@ Those temporary smithing templates give you nothing - you cannot use them to tri
 But you can store them for later, to use when you upgrade to 1.20 or snapshots that have experimental features turned on.
 As soon as you will update your game, those temprary smithing templates will transform into real smithing templates automatically!
 
-# How to install?
-In the file that you downloaded, you have two folders - TempSmithingTemplatesResourcePackV1 and TempSmithingTemplatesDatapackV1.
+# How it works?
+There are two parts of this datapack.
+First one adds temporary smithing templates to loot tables, so that you can loot them right now.
+Second part are functions that run every 5 game ticks, to look for those fake smithing templates and replace them with normal smithing templae. 
 
-The one with resource pack in name, you have to put in your resource pack folder and enable it in Minecraft.
-If you are using Windows, your resource pack folder should be located here - *C:\Users\Your Username\AppData\Roaming\.minecraft\resourcepacks\*
+# How to install? *Instruction for Windows*
+Unzip pack file - inside there are two folders, called TempSmithingDatapack and TempSmithingResourcePack
 
-You have to put TempSmithingTemplatesDatapackV1 in datapack folder of your world
-If you are using Windows, your datapack folder should be located here - *C:\Users\Your Username\AppData\Roaming\.minecraft\saves\Name of your save\datapacks*
+After that press <kbd> Windows </kbd> +  <kbd> R </kbd> and in the window that will pop-up write %appdata%\.minecraft
+That will tak you to default minecraft install location
 
-Of course replace *Your Username* with your username on your computer and *Name of your save* with name of your Minecraft world
+Place TempSmithingResourcePack in *resourcepacks* folder
+After that open *saves* folder and find save to which you would like to add datapack. Open it up, and place TempSmithingDatapack in *datapacks* folder
+Repeat that for every save to which you would like to add this datapack!
+
+After that launch Minecraft and activate resource pack.
 
 # Warning!
 If you launch this datapack in version lower than snapshot 23w04a and you have game output turned on you will see error that looks like that
