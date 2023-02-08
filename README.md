@@ -1,7 +1,7 @@
 # TempSmithingTemplates
 
 Have you seen smithing templates that were added to Minecraft in snapshot [23w04a](https://www.minecraft.net/en-us/article/minecraft-snapshot-23w04a)?
-That is really amazing feature that gives us more customization to our armor and completly changes the way we create netherite gear.
+That is really amazing feature that gives us more customization to our armor and completely changes the way we create netherite gear.
 It gives more reasons for players to explore their worlds and visit different structures to get different templates.
 
 But there is just one small problem.
