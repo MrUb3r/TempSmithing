@@ -80,6 +80,13 @@
         { "predicate": { "custom_model_data":6008 }, "model": "item/vex_armor_trim_smithing_template" },
         { "predicate": { "custom_model_data":6009 }, "model": "item/ward_armor_trim_smithing_template" },
         { "predicate": { "custom_model_data":6010 }, "model": "item/wild_armor_trim_smithing_template" },
-        { "predicate": { "custom_model_data":6011 }, "model": "item/netherite_upgrade_smithing_template" }
+        { "predicate": { "custom_model_data":6011 }, "model": "item/netherite_upgrade_smithing_template" },
+        { "predicate": { "custom_model_data":6012 }, "model": "item/blank_armor_trim_smithing_template" },
+        { "predicate": { "custom_model_data":6013 }, "model": "item/host_armor_trim_smithing_template" },
+        { "predicate": { "custom_model_data":6014 }, "model": "item/raiser_armor_trim_smithing_template" },
+        { "predicate": { "custom_model_data":6015 }, "model": "item/shaper_armor_trim_smithing_template" },
+        { "predicate": { "custom_model_data":6016 }, "model": "item/silence_armor_trim_smithing_template" },
+        { "predicate": { "custom_model_data":6017 }, "model": "item/wayfinder_armor_trim_smithing_template" },
+        { "predicate": { "custom_model_data":6018 }, "model": "item/uber_upgrade_smithing_template" }
     ]
 }

@@ -366,11 +366,11 @@
       "entries": [
         {
           "type": "empty",
-          "weight": 91
+          "weight": 917
         },
         {
           "type": "item",
-          "weight": 9,
+          "weight": 83,
           "name": "minecraft:clock",
           "functions": [
             {
@@ -484,6 +484,75 @@
                 },
                 {
                   "text": " Netherite Ingot",
+                  "color": "#5454FC",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 19
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:6012,TempArmorTrim:2b,BlankArmorTrim:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Smithing Template",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Blank Armor Trim",
+                  "color": "#A8A8A8",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Applies to:",
+                  "color": "#A8A8A8",
+                  "italic": "false"
+                },
+                {
+                  "text": " Armor",
+                  "color": "#5454FC",
+                  "italic": "false"
+                },
+                {
+                  "text": "Ingredients:",
+                  "color": "#A8A8A8",
+                  "italic": "false"
+                },
+                {
+                  "text": " Ingots & Crystals",
                   "color": "#5454FC",
                   "italic": "false"
                 }

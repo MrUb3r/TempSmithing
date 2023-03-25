@@ -1,5 +1,5 @@
 # Debug Info
-execute if score DebugInfo TemplateCheck matches 1.. run say Running template check
+execute if score DebugInfo TemplateCheck matches 1.. run tellraw @s {"text":"Running template_check function","italic":false}
 
 # Check if player has clock with CoastArmorTrim:1b, remove 1 of it and if that succeded, give him 1 coast_armor_trim_smithing_template
 execute as @s run execute store result score CoastTemplateCheck TemplateCheck run clear @s minecraft:clock{CoastArmorTrim:1b} 1
@@ -44,6 +44,26 @@ execute if score WardTemplateCheck TemplateCheck matches 1.. run give @s minecra
 # Check if player has clock with WildArmorTrim:1b, remove 1 of it and if that succeded, give him 1 wild_armor_trim_smithing_template
 execute as @s run execute store result score WildTemplateCheck TemplateCheck run clear @s minecraft:clock{WildArmorTrim:1b} 1
 execute if score WildTemplateCheck TemplateCheck matches 1.. run give @s minecraft:wild_armor_trim_smithing_template 1
+
+# Check if player has clock with HostArmorTrim:1b, remove 1 of it and if that succeded, give him 1 wild_armor_trim_smithing_template
+execute as @s run execute store result score HostTemplateCheck TemplateCheck run clear @s minecraft:clock{HostArmorTrim:1b} 1
+execute if score HostTemplateCheck TemplateCheck matches 1.. run give @s minecraft:host_armor_trim_smithing_template 1
+
+# Check if player has clock with RaiserArmorTrim:1b, remove 1 of it and if that succeded, give him 1 wild_armor_trim_smithing_template
+execute as @s run execute store result score RaiserTemplateCheck TemplateCheck run clear @s minecraft:clock{RaiserArmorTrim:1b} 1
+execute if score RaiserTemplateCheck TemplateCheck matches 1.. run give @s minecraft:raiser_armor_trim_smithing_template 1
+
+# Check if player has clock with ShaperArmorTrim:1b, remove 1 of it and if that succeded, give him 1 wild_armor_trim_smithing_template
+execute as @s run execute store result score ShaperTemplateCheck TemplateCheck run clear @s minecraft:clock{ShaperArmorTrim:1b} 1
+execute if score ShaperTemplateCheck TemplateCheck matches 1.. run give @s minecraft:shaper_armor_trim_smithing_template 1
+
+# Check if player has clock with SilenceArmorTrim:1b, remove 1 of it and if that succeded, give him 1 wild_armor_trim_smithing_template
+execute as @s run execute store result score SilenceTemplateCheck TemplateCheck run clear @s minecraft:clock{SilenceArmorTrim:1b} 1
+execute if score SilenceTemplateCheck TemplateCheck matches 1.. run give @s minecraft:wild_armor_trim_smithing_template 1
+
+# Check if player has clock with WayfinderArmorTrim:1b, remove 1 of it and if that succeded, give him 1 wild_armor_trim_smithing_template
+execute as @s run execute store result score WayfinderTemplateCheck TemplateCheck run clear @s minecraft:clock{WayfinderArmorTrim:1b} 1
+execute if score WayfinderTemplateCheck TemplateCheck matches 1.. run give @s minecraft:wild_armor_trim_smithing_template 1
 
 # Check if player has clock with NetheriteUpgradeTrim:1b, remove 1 of it and if that succeded, give him 1 netherite_upgrade_smithing_template
 execute as @s run execute store result score NetheriteUpgradeCheck TemplateCheck run clear @s minecraft:clock{NetheriteUpgradeTrim:1b} 1
