@@ -22,7 +22,7 @@ First one adds temporary smithing templates to loot tables, so that you can loot
 Second part are functions that run every 5 game ticks, to look for those fake smithing templates and replace them with normal smithing templae. 
 
 # How to download?
-Just click [HERE](https://github.com/MrUb3r/TempSmithing/releases/tag/TempSmithingV1.2) - this is will take you to the latest version of the pack
+Just click [HERE](https://github.com/MrUb3r/TempSmithing/releases/download/TempSmithingV1.3/TempSmithingV1.3.zip) - this is will take you to the latest version of the pack
 
 # How to install? *Instruction for Windows*
 Unzip pack file - inside there are two folders, called TempSmithingDatapack and TempSmithingResourcePack
