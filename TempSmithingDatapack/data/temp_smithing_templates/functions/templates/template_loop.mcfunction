@@ -9,5 +9,6 @@ execute as @a[scores={TemplateCheck=1..}] run function temp_smithing_templates:t
 
 # Loop this function if the scanning mode is set to automatic. Based on .DefaultMode score we either run template_planner of schedule template_loop to default value of running every 5 ticks
 execute unless score .ScanConfig TempConfig matches 1.. run execute if score .DefaultMode TempConfig matches 1 run function temp_smithing_templates:templates/template_planner
+
 # Change the score of fake player .DefaultMode in objecvtive TempConfig to 1. This way we know that somebody made changes to speed settings
 execute unless score .ScanConfig TempConfig matches 1.. run execute unless score .DefaultMode TempConfig matches 1 run schedule function temp_smithing_templates:templates/template_loop 5t replace

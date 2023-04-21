@@ -31,4 +31,3 @@ scoreboard objectives add Speed15TicksClick trigger
 scoreboard objectives add Speed1SecondClick trigger
 scoreboard objectives add Speed5SecondsClick trigger
 scoreboard objectives add SpeedSettings dummy
-

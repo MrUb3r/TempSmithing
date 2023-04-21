@@ -8,4 +8,3 @@ execute if score .SpeedSettings TemplateCheck matches 10 run schedule function t
 execute if score .SpeedSettings TemplateCheck matches 15 run schedule function temp_smithing_templates:templates/template_loop 15t replace
 execute if score .SpeedSettings TemplateCheck matches 20 run schedule function temp_smithing_templates:templates/template_loop 1s replace
 execute if score .SpeedSettings TemplateCheck matches 100 run schedule function temp_smithing_templates:templates/template_loop 5s replace
-

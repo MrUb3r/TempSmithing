@@ -14,7 +14,7 @@ scoreboard players enable @a ChangelogClick
 # Display start-up pop-up unless fake player .StartupConfig has score TempConfig of 0
 execute unless score .StartupConfig TempConfig matches 1 run tellraw @s [{"text":"-----------------------------------------------","italic":false}]
 execute unless score .StartupConfig TempConfig matches 1 run tellraw @a [{"text":"Loaded ","italic":false,"extra":[{"text":"Temporary Smithing Templates","color":"#5454FC","italic":false},{"text":" datapack by ","italic":false},{"text":"MrUber","color":"#5454FC","italic":false}]}]
-execute unless score .StartupConfig TempConfig matches 1 run tellraw @a [{"text":"Version ","italic":false,"extra":[{"text":"1","color":"#5454FC","italic":false},{"text":".","italic":false},{"text":"2","color":"#5454FC","italic":false}]}]
+execute unless score .StartupConfig TempConfig matches 1 run tellraw @a [{"text":"Version ","italic":false,"extra":[{"text":"1","color":"#5454FC","italic":false},{"text":".","italic":false},{"text":"3","color":"#5454FC","italic":false}]}]
 execute unless score .StartupConfig TempConfig matches 1 run tellraw @a [{"text":"Click ","italic":false,"extra":[{"text":"[ HERE ] ","color":"#5454FC","italic":false,"clickEvent":{"action":"run_command","value":"/trigger TempConfig"}},{"text":"to change datapack settings","italic":false}]}]
 
 # Loop config_loop function

@@ -87,6 +87,9 @@
         { "predicate": { "custom_model_data":6015 }, "model": "item/shaper_armor_trim_smithing_template" },
         { "predicate": { "custom_model_data":6016 }, "model": "item/silence_armor_trim_smithing_template" },
         { "predicate": { "custom_model_data":6017 }, "model": "item/wayfinder_armor_trim_smithing_template" },
-        { "predicate": { "custom_model_data":6018 }, "model": "item/uber_upgrade_smithing_template" }
+        { "predicate": { "custom_model_data":6018 }, "model": "item/uber_upgrade_smithing_template" },
+        { "predicate": { "custom_model_data":6019 }, "model": "item/uber_template_trader" },
+        { "predicate": { "custom_model_data":6020 }, "model": "item/uber_template_trader_mask" },
+        { "predicate": { "custom_model_data":6021 }, "model": "item/uber_template_display" }
     ]
 }

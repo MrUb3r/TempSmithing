@@ -26,3 +26,11 @@ tellraw @s {"text":"   - Added Host, Raiser, Shaper, Silence and Wayfinder templ
 tellraw @s {"text":"   - Updated textures of Dune and Sentry templates to textures added in snapshot 23w12a","italic":false}
 tellraw @s {"text":"   - Updated loot tables based on snapshot 23w12a","italic":false}
 tellraw @s {"text":"   - Added Blank templates to loot tables","italic":false}
+
+#Version 1.3
+tellraw @s {"text":"Version 1.3","color":"#5454FC","italic":false}
+tellraw @s {"text":"   - Added custom villager - Template Trader","italic":false}
+tellraw @s {"text":"      - you can buy Smithing Templates from him using Blank Smithin Templates and diamonds","italic":false}
+tellraw @s {"text":"      - guaranteed trades - Host, Raiser, Shaper and Wayfinder templates","italic":false}
+tellraw @s {"text":"      - random chance to get trades with other templates","italic":false}
+tellraw @s {"text":"      - you can spawn him by throwing blank template and smithing table near unemployed villager","italic":false}
